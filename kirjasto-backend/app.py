@@ -370,8 +370,8 @@ api.add_resource(
 # Runs on port 8000!!
 if __name__ == "__main__":
     #api urls work with this
-    app.run(debug=True)
+    #app.run(debug=True)
     #api urls work with this without authentication
-    #app.run(debug=True, host='127.0.0.1', port=8000)
+    app.run(debug=True, host='127.0.0.1', port=8000)
     #for testing
     #app.run(debug=True, use_debugger=False, use_reloader=False, host='127.0.0.1', port=8000)
